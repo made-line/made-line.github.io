@@ -18,20 +18,18 @@
 
 .block {
 	display: block;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .col {
 	float: left;
+	width: 25.0%;
 
-}
-
-.col.ab {
-	width: 33.33%;
 }
 
 .button {
 	border: none;
+	font-family: "Poiret One";
 	padding: 15px 15px;
 	vertical-align: middle;
 	overflow: hidden;
@@ -43,18 +41,20 @@
 
 
 .top {
-    top: 0;
-}
-.top, .bottom {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+    margin: 0;
 }
 
-* {
+.top, .botton {
+/*    position: fixed;
+*/    width: 100%;
+  /*  z-index: 0;
+*/
+}
+
+/** {
     box-sizing: inherit;
-}
+}*/
 
-div {
+/*div {
     display: block;
 }
