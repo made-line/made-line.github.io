@@ -10,7 +10,7 @@
     min-height: 75%;
 }
 
-/*Links that sit on top*/
+/*Navigation bar*/
 .black {
 	color: #FFFFFF;
 	background-color: #000000;
@@ -44,12 +44,11 @@
     margin: 0;
 }
 
-.top, .botton {
-/*    position: fixed;
-*/    width: 100%;
-  /*  z-index: 0;
-*/
-}
+/*.top, .botton {
+    position: fixed;
+    width: 100%;
+   z-index: 0;
+}*/
 
 /** {
     box-sizing: inherit;
