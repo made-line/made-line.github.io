@@ -1,0 +1,60 @@
+
+
+
+
+/*background image*/
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/485864_3061312622468_1193712345_n.jpg?_nc_cat=0&oh=68217d717c9c91a0af2e32c05975da43&oe=5BF5B94F);
+    min-height: 75%;
+}
+
+/*Links that sit on top*/
+.black {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.block {
+	display: block;
+	width: 100%;
+}
+
+.col {
+	float: left;
+
+}
+
+.col.ab {
+	width: 33.33%;
+}
+
+.button {
+	border: none;
+	padding: 15px 15px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+
+.top {
+    top: 0;
+}
+.top, .bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
