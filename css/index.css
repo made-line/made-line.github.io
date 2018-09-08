@@ -49,3 +49,34 @@
     width: 100%;
    z-index: 0;
 }*/
+
+
+.footer {
+	font-family: "Poiret One";
+	font-size: 13px;
+	margin: 0;
+}
+
+.name {
+	margin: 30px;
+}
+
+
+#social {
+	position: absolute;
+    width: 100%;
+
+  /*  text-align: center;*/
+}
+
+#social > a {
+	text-decoration: none;
+	padding: 7px;
+}
+/*	margin-bottom: 200px;*/
+/*	width: 49%;
+	display: inline-block;
+	/*
+}
+
+

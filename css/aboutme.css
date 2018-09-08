@@ -1,0 +1,48 @@
+/*Navigation bar*/
+.black {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+.block {
+	display: block;
+	/*width: 100%;*/
+}
+
+.col {
+	float: left;
+	width: 25.0%;
+}
+
+.button {
+	border: none;
+	font-family: "Poiret One";
+	padding: 15px 15px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	margin: 0;
+	top: 0;
+}
+
+
+.top {
+    margin: 0;
+}
+
+/*Header*/
+h1 {
+	font-family: Poiret One;
+	margin: 0;
+	font-size: 40px;
+	padding: 60px 40px;
+}
+
+/*#img.resize {
+   height: 50px; 
+    width: 50px; 
+
+}*/

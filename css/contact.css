@@ -22,7 +22,6 @@ margin: 20px auto;
 
 .block {
 	display: block;
-	/*width: 100%;*/
 }
 
 .col {
@@ -44,10 +43,6 @@ margin: 20px auto;
 	top: 0;
 }
 
-
-.top {
-    margin: 0;
-}
 
 /*Icons*/
 
