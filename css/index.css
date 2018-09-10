@@ -6,9 +6,14 @@
 .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/485864_3061312622468_1193712345_n.jpg?_nc_cat=0&oh=68217d717c9c91a0af2e32c05975da43&oe=5BF5B94F);
+    background-repeat: no-repeat;
+    background-image: url(https://i.imgur.com/BSufSG1.jpg);
     min-height: 75%;
 }
+
+/*.pictext {
+	 color: white;
+}*/
 
 /*Navigation bar*/
 .black {
@@ -30,31 +35,51 @@
 .button {
 	border: none;
 	font-family: "Poiret One";
-	padding: 15px 15px;
+	padding: 17px 17px;
 	vertical-align: middle;
 	overflow: hidden;
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
 	white-space: nowrap;
+	margin: 0;
+	top: 0;
 }
 
 
-.top {
+/*.top {
     margin: 0;
 }
-
+*/
 /*.top, .botton {
     position: fixed;
     width: 100%;
    z-index: 0;
 }*/
 
+/*Content*/
+.content {
+	text-align: center;
+	
+}
+
+#hello {
+	/*font-size: 25px;*/
+/*	font-weight: 700;*/
+	font-family: "Inconsolata";
+}
+
+#test {
+	font-family: "Inconsolata";
+}
+
+
+/*Footer*/
 
 .footer {
 	font-family: "Poiret One";
 	font-size: 13px;
-	margin: 0;
+	margin: 5px;
 }
 
 .name {
@@ -72,10 +97,11 @@
 #social > a {
 	text-decoration: none;
 	padding: 7px;
+	display: inline-block;
 }
 /*	margin-bottom: 200px;*/
 /*	width: 49%;
-	display: inline-block;
+	
 	/*
 }
 

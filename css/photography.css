@@ -44,9 +44,49 @@ h1 {
 	padding-bottom: 10px;
 } 
 
+/*Images*/
+img {
+	width: 45%;
+	float: left;
+	margin: 2.5%
+}
 
-/*#img.resize {
-   height: 50px; 
-    width: 50px; 
+.crop {
+	height: 350px;
+	overflow: hidden;
+}
 
-}*/
+/*.crop img {
+	height: auto;
+	width: 400px;
+} */
+
+
+/*Footer*/
+.footer {
+	font-family: "Poiret One";
+	font-size: 13px;
+	margin: 5px;
+	position: relative;
+}
+
+.name {
+	margin: 30px;
+}
+
+
+#social {
+/*	position: absolute;
+    /*width: 100%;
+}
+*/
+
+}
+
+
+#social > a {
+	text-decoration: none;
+	padding: 7px;
+}
+
+
