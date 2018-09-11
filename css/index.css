@@ -35,7 +35,7 @@
 .button {
 	border: none;
 	font-family: "Poiret One";
-	padding: 17px 17px;
+	padding: 15px 15px;
 	vertical-align: middle;
 	overflow: hidden;
 	text-decoration: none;
@@ -60,25 +60,29 @@
 /*Content*/
 .content {
 	text-align: center;
-	
+		font-family: "PT Serif";
 }
 
 #hello {
-	/*font-size: 25px;*/
-/*	font-weight: 700;*/
-	font-family: "Inconsolata";
+	font-size: 27px;
+	margin-bottom: 0px;
+
 }
 
-#test {
-	font-family: "Inconsolata";
+#text {
+	margin: 0 20px;
+	text-align: center;
+    margin: 0 auto;
+    width: 33%;
 }
 
 
 /*Footer*/
 
+
 .footer {
 	font-family: "Poiret One";
-	font-size: 13px;
+	font-size: 12px;
 	margin: 5px;
 }
 

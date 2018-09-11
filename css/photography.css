@@ -1,4 +1,4 @@
-/*Navigation bar*/
+	/*Navigation bar*/
 .black {
 	color: #FFFFFF;
 	background-color: #000000;
@@ -48,9 +48,16 @@ h1 {
 img {
 	width: 45%;
 	float: left;
-	margin: 2.5%
+	margin: 2.5%;
+	/*max-width: 100%;
+	height: auto;*/
 }
 
+/*.pics {
+	max-width: 100%;
+	height: auto;
+}
+*/
 .crop {
 	height: 350px;
 	overflow: hidden;
@@ -63,24 +70,35 @@ img {
 
 
 /*Footer*/
-.footer {
+/*.footer {
 	font-family: "Poiret One";
 	font-size: 13px;
 	margin: 5px;
-	position: relative;
+
 }
 
 .name {
 	margin: 30px;
+}*/
+
+/*Footer*/
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 
-#social {
-/*	position: absolute;
-    /*width: 100%;
+.content {
+  min-height: 100%;
 }
-*/
 
+.footer {
+  height: 50px;
+  margin-top: 200px;
+  
+  text-align: center;
+  font-family: "Poiret One";
+  padding-bottom: 10px;
 }
 
 
@@ -89,4 +107,8 @@ img {
 	padding: 7px;
 }
 
+#name {
+	margin: 0;
+	font-size: 12px;
+}
 

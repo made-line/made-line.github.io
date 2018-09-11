@@ -45,8 +45,71 @@ h1 {
 } 
 
 
+
+/*Content*/
+/*.container {
+    width: 80%;
+        background: aqua;*/
+ /*   height: 200px;
+
+    margin: 25px auto;
+    padding: 10px;
+    }*/
+    
+ .container {
+ 	margin: 2.5%;
+ }
+
+
+img {
+    float: left;
+    /*margin: 2.5%;*/
+}
+
+.bio {
+    margin-left: 35%;
+    height: 300px;
+/*    background: black;
+    color: white;	*/
+    font-family: "Pt Serif";
+    text-align: center;
+    padding-left: 2.5%;    
+}
+
+
+
 /*#img.resize {
    height: 50px; 
     width: 50px; 
 
 }*/
+
+
+/*Footer*/
+
+/*Footer*/
+
+
+.footer {
+	font-family: "Poiret One";
+	font-size: 12px;
+	margin: 5px;
+}
+
+.name {
+	margin: 30px;
+}
+
+
+#social {
+	position: absolute;
+    width: 100%;
+
+  /*  text-align: center;*/
+}
+
+#social > a {
+	text-decoration: none;
+	padding: 7px;
+	display: inline-block;
+}
