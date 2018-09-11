@@ -11,7 +11,7 @@ h1 {
 	font-size: 40px;
 	padding-top: 60px;
 	border-bottom: 3px solid #f1f1f1;
-	width: 46%;
+	width: 48%;
 	padding-bottom: 10px;
 } 
 
@@ -21,37 +21,6 @@ max-width: 700px;
 width: 80%;
 margin: 20px auto;
 }*/
-
-
-
-/*Navigation bar*/
-.black {
-	color: #FFFFFF;
-	background-color: #000000;
-}
-
-.block {
-	display: block;
-}
-
-.col {
-	float: left;
-	width: 25.0%;
-}
-
-.button {
-	border: none;
-	font-family: "Poiret One";
-	padding: 15px 15px;
-	vertical-align: middle;
-	overflow: hidden;
-	text-decoration: none;
-	text-align: center;
-	cursor: pointer;
-	white-space: nowrap;
-	margin: 0;
-	top: 0;
-}
 
 
 /*Icons*/
