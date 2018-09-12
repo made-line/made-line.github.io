@@ -2,7 +2,7 @@
 /*Header*/
 
 #header {
-	padding-left: 2.5%;
+	padding-left: 22px;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 	font-size: 40px;
 	padding-top: 60px;
 	border-bottom: 3px solid #f1f1f1;
-	width: 48%;
+	width: 49%;
 	padding-bottom: 10px;
 } 
 
@@ -28,18 +28,45 @@ h1 {
     }*/
     
  .container {
- 	padding: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
  }
 
-.bio {
-    margin-left: 35%;
-/*    background: black;
-    color: white;	*/
-    font-family: "Pt Serif";
-    text-align: center;
-    padding-left: 2.5%;    
+ .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 0px 4px;
+    box-sizing: border-box;
 }
 
+.column img {
+    margin-top: 8px;
+    /*  height: 350px;*/
+    vertical-align: middle;
+}
+
+p {
+    font-family: "Pt Serif";
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
 
 
 /*#img.resize {
@@ -47,3 +74,4 @@ h1 {
     width: 50px; 
 
 }*/
+
