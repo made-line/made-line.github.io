@@ -47,8 +47,15 @@ main {
 	white-space: nowrap;
 	margin: 0;
 	top: 0;
+	font-size: 17px;
 }
 
+
+.button:hover {
+	background-color: white ;
+	cursor: pointer;
+    color: black;
+}
 
 /*.top {
     margin: 0;
