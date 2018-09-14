@@ -20,26 +20,34 @@ h1 {
 /*Content*/
     
 .container {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     padding: 20px 20px;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
  }
 
-.img-column {
+.column.img {
     flex: 30%;
-    padding: 0px 30px;
+    padding: 30px;
     box-sizing: border-box;
 }
 
-.text-column {
+.column.text {
     flex: 70%;
     padding: 0px 30px;
     box-sizing: border-box;
-    min-height: 10em;
+    vertical-align: middle;
+    line-height: 1.5em;
+    font-family: "Pt Serif";
+    align-self: center;
 }
 
-.img-column img {
+.column.img img {
     width: 100%;
+    max-width: 500px;
     display: block;
     margin: auto;
     vertical-align: middle;
@@ -53,15 +61,7 @@ p {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
+    .column.img, .column.text {
         flex: 100%;
         max-width: 100%;
     }

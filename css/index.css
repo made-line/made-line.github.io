@@ -55,6 +55,7 @@ main {
 	background-color: white ;
 	cursor: pointer;
     color: black;
+    font-weight: bold;
 }
 
 /*.top {
