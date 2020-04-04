@@ -59,6 +59,10 @@ p {
     text-align: left;
 }
 
+ul {
+    margin-top: 3px;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column.img, .column.text {
