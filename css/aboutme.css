@@ -2,19 +2,23 @@
 /*Header*/
 
 #header {
-	padding-left: 22px;
+  padding-left: 22px;
 }
 
 h1 {
-	font-family: Poiret One;
-	margin: 0;
-	font-size: 40px;
-	padding-top: 60px;
-	border-bottom: 3px solid #f1f1f1;
-	width: 49%;
-	padding-bottom: 10px;
+  font-family: Poiret One;
+  margin: 0;
+  font-size: 40px;
+  padding-top: 60px;
+  border-bottom: 3px solid #f1f1f1;
+  width: 49%;
+  padding-bottom: 10px;
 } 
 
+
+#intro {
+  text-align: center;
+}
 
 
 /*Content*/
@@ -29,11 +33,26 @@ h1 {
     margin: auto;
  }
 
-.column.img {
-    flex: 30%;
+#profilepic {
+/*    flex: 30%;
     padding: 30px;
     box-sizing: border-box;
+    max-width: 25%;*/
+      margin-top: 20px;
+
 }
+
+#profilepic img {
+/*    width: 100%;*/
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin: auto;
+*/  vertical-align: middle;
+}
+
+
 
 .column.text {
     flex: 70%;
@@ -45,13 +64,7 @@ h1 {
     align-self: center;
 }
 
-.column.img img {
-    width: 100%;
-    max-width: 500px;
-    display: block;
-    margin: auto;
-    vertical-align: middle;
-}
+
 
 p {
     font-family: "Pt Serif";
@@ -59,15 +72,96 @@ p {
     text-align: left;
 }
 
+p + ul {
+    margin-top: -10px;
+}
+
+
 ul {
-    margin-top: 3px;
+    text-align: left;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+/*@media screen and (max-width: 800px) {
     .column.img, .column.text {
         flex: 100%;
         max-width: 100%;
     }
+}*/
+
+
+
+/*<--- new gallery ---> */
+* {
+  box-sizing: border-box;
+}
+
+body {
+/*  background-color: #f1f1f1;
+*/  padding: 20px;
+/*  font-family: Arial;*/
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+/*.row {
+  margin: 8px -16px;
+}*/
+
+/* Add padding BETWEEN each column */
+/*.row,
+.row > .column {
+  padding: 8px;
+}*/
+/*
+h3 {
+  padding: 10px;
+}*/
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.column .content {
+  background-color: white;
+  padding: 10px 10px 5px 10px;
+  border: 1px solid #DDD;
+  margin: 5px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
