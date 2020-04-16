@@ -147,7 +147,12 @@ h3 {
   border: 1px solid #DDD;
   margin: 5px;
   border-radius: 10px;
-  min-height: 400px;
+  min-height: 410px;
+
+}
+
+.column .content p {
+    text-align: center;
 }
 
 
