@@ -1,12 +1,8 @@
-/*/*/*/*/*/*/*/*
-
+ 
 /*Header*/
 
-#header {
-  padding-left: 22px;
-}
 
-h1 {
+/*h1 {
   font-family: Poiret One;
   margin-top: 0;
   margin-bottom: 0;
@@ -17,7 +13,7 @@ h1 {
   width: 49%;
   padding-bottom: 10px;
 } 
-
+*/
 /*Images*/
 /*img {
   width: 45%;
@@ -47,14 +43,13 @@ h1 {
 .column {
     flex: 50%;
     max-width: 50%;
-    padding: 0px 4px;
     box-sizing: border-box;
 }
 
 .column img {
-    margin-top: 8px;
-    /*  height: 350px;*/
+    padding: 10px;
     vertical-align: middle;
+    width: calc(100% - 20px);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -79,6 +74,5 @@ h1 {
 
 .content {
   min-height: 100%;
-}*/*/*/
+}
 
-/* ------------------------------------*/*/*/*/*/

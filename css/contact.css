@@ -1,19 +1,6 @@
 /*Header*/
 
-#header {
-	padding-left: 22px;
-}
 
-
-h1 {
-	font-family: Poiret One;
-	margin: 0;
-	font-size: 40px;
-	padding-top: 60px;
-	border-bottom: 3px solid #f1f1f1;
-	width: 49%;
-	padding-bottom: 10px;
-} 
 
 /*p {
 padding: 20px;
@@ -26,21 +13,16 @@ margin: 20px auto;
 /*Icons*/
 
 #social {
-	padding: 0;
+	padding: 20px;
 	margin: auto; 
-	position: absolute;
-    left: 0;
-    top: 50%;
-    width: 50%;
-/*    text-align: center;
-*/    display: inline-block;
+    display: inline-block;
+    width: 80%;
 }
 
 #social > a {
 	text-decoration: none;
-	padding: 0;
-	margin: 50;
-	width: 30%;
+	padding: 20px;
+	width: calc(30% - 40px);
 	display: inline-block;
 }
 
